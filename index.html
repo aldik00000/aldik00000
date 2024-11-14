@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таймер обратного отсчёта</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Таймер обратного отсчёта</h1>
+    <div id="timer" class="timer">
+      <span id="days">20</span> дней
+      <span id="hours">10</span> часов
+      <span id="minutes">15</span> минут
+      <span id="seconds">11</span> секунд
+    </div>
+    <div class="date-input">
+      <label for="end-date">Установите дату для отсчёта:</label>
+      <input type="datetime-local" id="end-date" name="end-date">
+      <button onclick="setDate()">Начать отсчёт</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
